@@ -12,5 +12,3 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-alias setup_core='git pull && update && bin/rake dev:create_apps && restart'
-alias setup_web='git pull && update && restart'
